@@ -48,7 +48,8 @@ class PublicUserApiTests(TestCase):
         """Test password must be longer that 5 characters""" 
         payload = {
         'email': 'tester@blah.com',
-        'password': 'pass'
+        'password': 'pass',
+        'name': 'Tester',
         }   
         res = self.client.post(CREATE_USER_URL, payload)
 
