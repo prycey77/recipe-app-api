@@ -1,2 +1,4 @@
 # recipe-app-api
-Recipe app api source code
+
+
+Backend REST API using Python, Django, Django REST Framework, Docker, Travis CI, and Postgres.
