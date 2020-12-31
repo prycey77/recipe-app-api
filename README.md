@@ -1,4 +1,23 @@
-# recipe-app-api
+# recipe-api
 
 
-Backend REST API using Python, Django, Django REST Framework, Docker, Travis CI, and Postgres.
+- Backend REST API for managing recipes
+
+- Setup project using Docker
+
+- Configured Travis-CI
+
+- Created endpoints
+
+- Listing and filtering features
+
+- Upload image feature
+
+## To run tests:
+```docker-compose run --rm app sh -c "python manage.py test && flake8"```
+
+## To run api:
+```docker-compose up```
+
+
+
